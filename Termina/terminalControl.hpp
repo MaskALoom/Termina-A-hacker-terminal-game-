@@ -60,8 +60,8 @@ class Terminal{
 	};
 	TerminalPlayer tp;
 	int terminalLine = 0;
-	Font terminalFont = LoadFontEx("font2.ttf", 25, 0, 0);
-	Font terminalFontBig = LoadFontEx("font2.ttf", 35, 0, 0);
+	Font terminalFont = LoadFontEx("font.ttf", 25, 0, 0);
+	Font terminalFontBig = LoadFontEx("font.ttf", 35, 0, 0);
 	std::string workingDirectoryString;
 	std::string terminalStart = tp.playerID + "@" + tp.systemID + "$" + workingDirectoryString + ":" + "`_";
 	std::string inputedCommand;
